@@ -3,6 +3,10 @@
 ## Обьявление переменной
 ```javascript
 var name = 'John'
+
+var number;
+number = 10;
+
 ```
 ### Типы переменных
 ```javascript
