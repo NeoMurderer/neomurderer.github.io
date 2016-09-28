@@ -51,8 +51,8 @@
   x*=5; // equal x = x * 5;
   alert(x); // 45
 ```
-## Операции со строками 
-### Работа оператора "+"
+### Операции со строками 
+Работа оператора "+"
 ```javascript
   var name = "John";
   var secondName = "Snow";
@@ -60,3 +60,9 @@
   alert(name + secondName); // JohnSnow
 
 ```
+Получение длинны строки
+```javascript
+  var name = "John"
+  alert(name.length)
+```
+
