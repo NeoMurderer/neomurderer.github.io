@@ -7,7 +7,7 @@
 * /
 * %
 
-[Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+[Приоритет операторов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 ```javascript
   var index = 0;
   index = index + 1;
