@@ -51,3 +51,12 @@
   x*=5; // equal x = x * 5;
   alert(x); // 45
 ```
+## Операции со строками 
+### Работа оператора "+"
+```javascript
+  var name = "John";
+  var secondName = "Snow";
+  
+  alert(name + secondName); // JohnSnow
+
+```
