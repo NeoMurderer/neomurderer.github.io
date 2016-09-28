@@ -39,7 +39,7 @@
   alert(anotherNames) // Anna,Martin,Alex
   
 ```
-### Удаление по индексу
+### Удаление по индексу (splice)
 
 ```javascript
   var arr = ['Скоро','наступит','весна'];
@@ -60,4 +60,11 @@
   
   arr.splice(2,0,'теплая'); // Удаляем 0 элементов с 2 позиции и добавляем 1 элемент
   alert(arr); // ['Скоро','наступит','теплая','весна']
+```
+Перебор элеметов массива
+```javascript
+  var countries = ['Ukraine','USA','Norway'];
+  for(var i = 0; i < countries.length; i++) {
+    alert(countries[i]);
+  }
 ```
