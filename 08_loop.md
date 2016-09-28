@@ -65,3 +65,12 @@
   }
   alert(count);
 ```
+Continue
+```javascript
+  var result = 1;
+  for(var i = 0;i < 3; i++) {
+    if(i == 1) continue;
+    result = result * (i + 1);
+    alert(result) // 1, 3
+  }
+```
