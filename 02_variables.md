@@ -2,47 +2,16 @@
 
 ## Обьявление переменной
 ```javascript
-var name = 'John'
 
 var number;
 number = 10;
 
-```
-### Типы переменных
-```javascript
-// Number
-var number = 1; // type "number"
+var name = 'John';
 
-// String
-var userName = "John"; // type "string"
-
-// Boolean
-var isLogged = true; // type "boolean"
-
-// Array
-var countries = ['Ukraine','USA','Norway']; // type "object"
-
-// Object
-
-var person = {
-	firstName: 'John',
-	secondName: 'Martin'
-}; // type "object"
-
-// Undefined
-var person;	//  type  "undefined"
-// or
-var person  = undefined;
-
-
-// Null
-var nullVariable = null;  // type "object"
 
 ```
+# Итого
 
-### Оператор typeof
-
-```javascript
-var hasValue = true;
-typeof hasValue; // 'boolean'
-```
+* В JavaScript можно объявлять переменные для хранения данных. Это делается при помощи var.
+* Технически, можно просто записать значение и без объявления переменной, однако это не рекомендуется.
+* Вместе с объявлением можно сразу присвоить значение: var x = 10.
