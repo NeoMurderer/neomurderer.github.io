@@ -1,23 +1,18 @@
 # Основные операции
-
+Для работы с переменными JavaScript поддерживает все стандартные операторы(например обычные сложение +, умножение *, вычитание - и другие)
 ### Математические операции
-* +
-* - 
-* *
-* /
-* %
 
-[Приоритет операторов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 ```javascript
   var index = 0;
   index = index + 1;
+  
   alert(index) // 1;
   
-  var x,y;
+  var x, y;
   x = 5;
   y = 10;
   
-  alert(x * (y /2)) // 25
+  alert(x * y)) // 50
 ```
 ### Инкремент/декремент: ++, --
 
@@ -60,11 +55,25 @@
   var secondName = "Snow";
   
   alert(name + secondName); // JohnSnow
-
+  
+  var age = 20;
+  alert("Мне уже " + age + " лет"); // Если хоть один аргумент является строкой - остальные преобразуются в String
 ```
-Получение длинны строки
+### Преобразование к числу
 ```javascript
-  var name = "John"
-  alert(name.length)
+  alert('6' / 2); // 3
+  
+  var a = '4';
+  var b = '10';
+  
+  var x = +a;
+  var y = +b;
+  
+  alert(x+y); // 14
+  
+  //or
+  
+  alert(+a + +b); // 14
 ```
 
+[Приоритет операторов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
