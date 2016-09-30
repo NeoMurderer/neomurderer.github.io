@@ -5,18 +5,19 @@
 ### Имена переменных
 
 ```javascript
-  var name = "Mike"; // valid
-
-  var 404error = false; // invalid
-
-  var $ = true; // valid
-
-  var user-name = "Admin" // invalid
-  
+  // Valid 
+  var name = "Mike";
+  var $ = true;
   var PI = 3.14;
+  
+  // Invalid 
+  var 404error = false;
+  var user-name = "Admin";
+  
+  
 ```
 ### Регистр
-
+Названия переменных является регистрозависимым.
 ```javascript
   var email = "admin@local.host";
 
