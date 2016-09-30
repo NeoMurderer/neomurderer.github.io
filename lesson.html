@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html class="sl-root decks export loaded ua-phantomjs reveal-viewport theme-font-montserrat theme-color-white-blue">
+	<html class="sl-root decks export loaded ua-phantomjs reveal-viewport theme-font-montserrat theme-color-sand-blue">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
@@ -25,34 +25,760 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="has-light-background" data-id="bb9cc929339e05eb9a298429be597179" data-background-color="#ffffff"><div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 490px; left: 80px; top: 157px;" data-block-id="605598986d7f0228c3d393f78c67104b"><div class="sl-block-content" style="z-index: 11;"><pre><code>&lt;!DOCTYPE HTML&gt;
-&lt;html&gt;
-
-&lt;head&gt;
-  &lt;!-- Тег meta для указания кодировки --&gt;
-  &lt;meta charset="utf-8"&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-  &lt;!-- Inline script --&gt;
+				<section class="has-light-background" data-id="bb9cc929339e05eb9a298429be597179" data-background-color="#ffffff"><div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 780px; height: 108px; left: 80px; top: 142px;" data-block-id="605598986d7f0228c3d393f78c67104b"><div class="sl-block-content" style="z-index: 10;"><pre><code>
   &lt;script&gt;
-      alert("Hello world");
-  &lt;/script&gt;
-
-
-&lt;/body&gt;
-&lt;/html&gt;</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 974px; left: -14px; top: 26px;" data-block-id="c4645f1a9b79575eb6ca23e1dfcd13a4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: center;">
-<h3 style="color:rgb(51, 51, 51)">Подключение и выполнение JavaScript</h3>
-
-<h3> </h3>
-
-<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"> </h3>
+    alert("Hello world");
+  &lt;/script&gt;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 880px; left: 80px; top: 0px;" data-block-id="c4645f1a9b79575eb6ca23e1dfcd13a4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<h2 style="color: rgb(51, 51, 51);">Подключение JavaScript</h2>
 </div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 101px;" data-block-id="b3158e12964f98348bfe968324f93113"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
-<p style="color: rgb(51, 51, 51); font-size: 1.25em; text-align: start;">Подключение в любом месте</p>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 94px;" data-block-id="b3158e12964f98348bfe968324f93113"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align: left;"><font color="#333333"><span style="font-size:37.5px">Inline подключение</span></font></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 780px; height: 70px; left: 80px; top: 318px;" data-block-id="87ddb3daeda9e354fe4d0521f5f668b2"><div class="sl-block-content" style="z-index: 13;"><pre><code>
+  &lt;script src="main.js"&gt;&lt;/script&gt;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 260px;" data-block-id="48637188c44d341da28c1376fda18a3f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left"><span style="font-size:37.5px">Подключение файла</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 780px; height: 139px; left: 80px; top: 457px;" data-block-id="5366f2c2e9f0c21f988dd06ff89d4c40"><div class="sl-block-content" style="z-index: 16;"><pre><code>
+  &lt;script src="main.js"&gt;
+    alert("Hello world"); // так как указан src - содержимое игнорируется
+  &lt;/script&gt;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 408px;" data-block-id="5233164d8a238a9d03196d58fddacce8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p style="text-align:left"><span style="font-size:0.9em">Если указан атрибут src, то содержимое тега ингорируется</span></p>
+</div></div></section><section class="has-light-background" data-background-color="#ffffff" data-id="186cf835d606bb4da23492d350bc0462"><div class="sl-block" data-block-type="code" style="width: 780px; height: 139px; left: 80px; top: 68px;" data-block-id="a5116a3d4b4d380dbc2a7fcc9ceadd4b"><div class="sl-block-content" style="z-index: 11;"><pre><code>
+  &lt;script src="script1.js" async&gt;&lt;/script&gt;
+
+  &lt;script src="script2.js" async&gt;&lt;/script&gt;</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 80px; top: 10px;" data-block-id="d73873e0baa0ab55847f6a5d0eaa7bc9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left"><span style="font-size:37.5px">Async</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 780px; height: 140px; left: 80px; top: 354px;" data-block-id="df28de5942db45ec8ed759c8d8e140f9"><div class="sl-block-content" style="z-index: 13;"><pre><code>
+  &lt;script src="script1.js" defer&gt;&lt;/script&gt;
+
+  &lt;script src="script2.js" defer&gt;&lt;/script&gt;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 80px; top: 296px;" data-block-id="7fa350442a6b6802d8a6ca7068fb4471"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left"><span style="font-size:37.5px">Defer</span></p>
+</div></div>
+<div class="sl-block intro-end" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 207.506px;" data-block-id="a0dcd07aff60b3496e24d2bcb1f317ed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.9em">Указанный в атрибуте src файл будет выполняться без ожидания загрузки и отображения веб-страницы</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 514px;" data-block-id="277d59ea842a6c0291e61f57d06a4cad"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="text-align:left"><span style="font-size:0.9em"><span style="color:rgb(51, 51, 51); text-align:start">Атрибут defer откладывает выполнение скрипта до тех пор, пока вся страница не будет загружена полностью</span></span></p>
+</div></div></section><section data-id="131e0f235bbb91a605c334e847fa5d77"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 120px; top: 0px;" data-block-id="35366cc44efd0a46eba952c4a339bf9c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" dir="ui"><h2>Комментарии</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 500px; left: 10px; top: 92px;" data-block-id="9666791ec824cc1df7e861b54d574675"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3 style="color: rgb(51, 51, 51); font-size: 1.25em; text-align: start;"><span style="font-size:0.9em">Однострочные комментарии</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 90px; left: 10px; top: 150px;" data-block-id="ea35c56718cd6026bddad677827ec690"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>  // Создаем переменную для хранения имени
+  var name;
+  // Присваиваем ей значение 'John'
+  name = 'John';</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 529px; left: 10px; top: 260px;" data-block-id="9baebe64f97ed2909e876e24ffee7e37"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Многострочные комментарии</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 122px; left: 10px; top: 318px;" data-block-id="17c720354bbb6c66c1cb41e1e0cb5c48"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>/* 
+  Имя или краткое описание объекта 
+  Развернутое описание 
+  @return тип_данных
+*/</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 390px; left: 570px; top: 92px;" data-block-id="c081969ef45ec60dc20e8bc84f3fec42"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">Однострочные комментарии начинаются с двойного слэша //.</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 382px; left: 570px; top: 260px;" data-block-id="cd487f5bdd54e384837def26f89805be"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">Многострочные комментарии начинаются слешем-звездочкой <strong>/*</strong> и заканчиваются звездочкой-слэшем <strong>*/</strong></span></p>
 
 <p> </p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 559px; top: 92px;" data-block-id="38c1216dcdbfab7ed56a035ee5a92360"><div class="sl-block-content" data-line-x1="159" data-line-y1="190" data-line-x2="159" data-line-y2="-158" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="348" viewbox="159 -158 1 348"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="159" y1="190" x2="159" y2="-158"></line><line stroke="#000000" stroke-width="2" x1="159" y1="190" x2="159" y2="-158"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 10px; top: 466px;" data-block-id="c409a2cc874296b8ecb5735dbdc67b73"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; font-size: 70%;">
+<p style="color:rgb(51, 51, 51); text-align:start">Shortcuts - <strong><em>Ctrl + /</em> </strong>(OS X - <strong><em>Command + /</em> </strong>)</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 950px; left: 10px; top: 530px;" data-block-id="6b9f64e0ffa863962710b9d9a50d24f7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20; font-size: 70%;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:start">Shortcuts (Sublime Text) - <strong><em>Ctrl + Shift + /</em></strong> (OS X - <strong><em>Option</em> + <em>Command + /</em> </strong>)</p>
+</div></div></section><section data-id="7fd5302862031fad891afc9632c7b81a"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 0px;" data-block-id="5d55837487862faf8d74d7d1780ed586"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<h2 style="color: rgb(51, 51, 51);">Переменные</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 101px;" data-block-id="1582b5838b23919201e082c3f0d4ba47"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left">Обьявление переменной</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 806px; height: 200px; left: 80px; top: 150px;" data-block-id="3c9e41089fd60add4cbdc12a574f7ba2"><div class="sl-block-content" style="z-index: 13;"><pre><code>  // Обьявление пустой переменной
+  var number;
+  number = 10;
+
+  // Обьявление с присваиванием
+  var name = 'John';
+
+  // Обьявление нескольких переменных
+  var user = 'John', age = 25, message = 'Hello';</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 382px;" data-block-id="36711cba7e6c93e3a99f3bda5d793fdb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left">Копирование переменной</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 199px; left: 80px; top: 431px;" data-block-id="b5774af80f558c235c168b22759aa8d2"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>
+  var message = 'Hello world';
+
+  var hello;
+
+  hello = message;
+
+  alert(hello); // Hello world</code></pre></div></div></section><section data-id="54d1078d5e32e2806e537a9348b3b8ed"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="afba2cd0176e6dd1534bb4aca97cbad8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left;">
+<h2 style="color:rgb(51, 51, 51)">Именование переменных</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 160px;" data-block-id="7d76013d0b092c33da8723cdb314c08a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3 style="text-align: left;">Имена переменных</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 577px; left: 80px; top: 70px;" data-block-id="df9a64d7314cd0e003e6ee6664cd7910"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li style="text-align:left"><span style="font-size:0.7em">Имя может состоять из: букв, цифр, символов $ и _</span></li>
+	<li style="text-align:left"><span style="font-size:0.7em">Регистр имеет значенние</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 400px; height: 195px; left: 80px; top: 225px;" data-block-id="f1a9c3f91afafe2a90298cc7499a7646"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  // Valid 
+  var name = "Mike";
+  var $ = true;
+  var PI = 3.14;
+  var status404  = 404;
+
+  // Invalid 
+  var 404error = false;
+  var user-name = "Admin";</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 520px; top: 160px;" data-block-id="60293eef2c0a70cb1343e53948537206"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<h3 style="text-align:left">Регистр</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 400px; height: 198px; left: 520px; top: 222px;" data-block-id="59408d581f2c4bbbfb965c026ec11e6f"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>  
+  var email = "admin@local.host";
+
+  alert(Email); // Email is not defined
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 440px;" data-block-id="10f47712eefce86dd3a663154ab2c5e5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Правила именования</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 400px; height: 195px; left: 80px; top: 490px;" data-block-id="3849076f59709065889e6e1af4bec633"><div class="sl-block-content" style="z-index: 18;"><pre class="typescript"><code>  // Не используйте транслит
+
+  var polsovatel = "Admin"; // wrong
+
+  var chisloPI = 3.14; // wrong
+
+  var login = "Admin"; // Ok
+
+  var numberPI = 3.14; // Ok</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 400px; height: 195px; left: 520px; top: 505px;" data-block-id="d577b6e4cb28796b9fd99737df286edf"><div class="sl-block-content" style="z-index: 19;"><pre class="typescript"><code> 
+  var windowheight = 500; // wrong
+
+  var windowHeight = 500; // ok
+
+  var window_height = 500; // ok too</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 520px; top: 442px;" data-block-id="b13838b421bb01863b9da39b2185cd16"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">CamelCase</h3>
+</div></div></section><section data-id="e6b5beeb9360b28f31110b08569b4e1e"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 20px;" data-block-id="636fd165d1e212b6253744853a751e2c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; text-align: left;">
+<h3 style="color:rgb(51, 51, 51)">Типы переменных - 6 типов данных</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 80px;" data-block-id="3ff58858b344958f6586b9af0499a44b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3 style="text-align:left">Number</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 96px; left: 80px; top: 169px;" data-block-id="0270a257dd1f820d036554d113980213"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>  
+  var number = 1;
+  number = 3.14;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 520px; top: 80px;" data-block-id="9c4586f6ce28bcbf03299e71389d061a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h3 style="text-align:left">String</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 97px; left: 520px; top: 169px;" data-block-id="52da397a5fb03d71db115c46cb22f2c9"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>
+  var str = "John";
+  str = 'Можно писать предложения';</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 278px;" data-block-id="f047c84a273b9be70ad03648798f5f25"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Boolean</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 97.5px; left: 80px; top: 360px;" data-block-id="5359e381b79ec806b4132418b6b95403"><div class="sl-block-content" style="z-index: 16;"><pre class="typescript"><code>
+  var isLogged = true;
+  isLogged = false;</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 98px; left: 520px; top: 360px;" data-block-id="94fda223c5de2971d17644a4969fa98c"><div class="sl-block-content" style="z-index: 17;"><pre class="typescript"><code>
+  var age = null;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 520px; top: 278px;" data-block-id="781047075d6e88a15dcce3e7f42d7801"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Null</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 130px;" data-block-id="a5cb06c549931ffb3f0e98c0442408dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em">Используется как для целых, так и для дробных чисел</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 520px; top: 130px;" data-block-id="33d8b8423d8cc09aaa8555542a5436d4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em">Используется для хранения строк и букв</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 317px;" data-block-id="35e79c19abdb662ab862a3a779d7b89b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em">Используется для хранения значения типа да/нет</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 440px; left: 520px; top: 317px;" data-block-id="a275bbbcf43aeb52808a1f75ba304ac2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em"><span style="color:rgb(51, 51, 51); text-align:start">Имеет смысл «ничего» или «значение неизвестно»</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 480px;" data-block-id="94d93e1428143b923c67f1f69ec8c0a5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Undefined</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 138px; left: 80px; top: 562px;" data-block-id="a79c22afb076a3433ed097d828ba084b"><div class="sl-block-content" style="z-index: 24;"><pre class="typescript"><code>
+  var person;
+  alert(person); // undefined
+  // or
+  person  = undefined;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 519px;" data-block-id="0adcdce0d5c67ae7f99f1eecfedac4bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 25;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em"><span style="color:rgb(51, 51, 51); text-align:start">Имеет смысл «значение не присвоено»</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 520px; top: 480px;" data-block-id="7257ed10c28b0800d6bb6b8eaab0d537"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 27;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Object</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 138px; left: 520px; top: 562px;" data-block-id="084c650a47476278a6885e6cf3010876"><div class="sl-block-content" style="z-index: 28;"><pre class="typescript"><code>
+  var person = {
+    firstName: 'John',
+    secondName: 'Martin'
+  };</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 520px; top: 519px;" data-block-id="d9a70142e43657b89c70aca1cfcb7f2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 29;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.5em"><span style="color:rgb(51, 51, 51); text-align:start">Используется для коллекций данных </span></span></p>
+</div></div></section><section data-id="6419b498351257690825b251b78cb42b"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="192ac07c052157a7d397da7d6095d8de"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Оператор typeof</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 720px; left: 80px; top: 101px;" data-block-id="4edf9affa2b5396010f0bb4d4f66b963"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="color:rgb(51, 51, 51); text-align:start">Оператор typeof возвращает тип аргумента</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 300px; left: 80px; top: 171px;" data-block-id="2289173970139fb2014eba983f563027"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>
+  typeof 1.53 // "number"
+
+  typeof "John" // "string"
+
+  typeof true // "boolean"
+
+  typeof null // "object"
+
+  typeof undefined // "undefined"
+
+  typeof {} // "object"</code></pre></div></div></section><section data-id="ddc07569ec94b960bbae37a2214b8759"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="bf68f06444ce9d4c4ac3d8741630e7a9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Основные операции</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 70px;" data-block-id="3211cabf5ae9a17d022c319f62201231"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">Для работы с переменными JavaScript поддерживает все стандартные операторы(например обычные сложение +, умножение *, вычитание - и другие)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 456px; left: 80px; top: 197px;" data-block-id="8aee2f185da08bf31da543d94c787d1b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h3 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"><span style="font-size:0.9em">Математические операции</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 215px; left: 80px; top: 258px;" data-block-id="6ed2996562ad9d6f0d8afdd74ae0a68d"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var index = 0;
+  index = index + 1;
+
+  alert(index) // 1;
+
+  var x, y;
+  x = 5;
+  y = 10;
+
+  alert(x * y)) // 50</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 560px; top: 490px;" data-block-id="9244c3ac3f416c3ae52ac547a513a43a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="color: rgb(51, 51, 51); font-size: 1.25em; text-align: start;"><span style="font-size:0.7em">Логический оператор !(НЕ)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 81px; left: 560px; top: 558px;" data-block-id="c8c851420059f5617cf8df0ff35f8848"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>  var result = true;
+
+  alert(!result); // false</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 456px; left: 80px; top: 490px;" data-block-id="af6e92835c29b50a1c74e14724d86af1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"><span style="font-size:0.7em">Оператор &amp;&amp;(И) и || (ИЛИ)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 456px; height: 81px; left: 80px; top: 558px;" data-block-id="72ba1996f09fee30544e6250cbab6e02"><div class="sl-block-content" style="z-index: 18;"><pre class="typescript"><code>  var result = expression1 &amp;&amp; expression2 
+
+  var result = expression1 || expression2 </code></pre></div></div></section><section data-id="846346d718f9daeeb6ed1e55da4ff982"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 22px;" data-block-id="3367446d85ee57e1e9b9a42c4515d10e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"><span style="font-size:1.0em">Инкремент/декремент</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 253px; left: 80px; top: 150px;" data-block-id="ca19bd25a3bd1c9105671167cf7c04dc"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>  /* Инкремент */
+  var i = 2;
+  i++;
+  alert(i); // 3;
+
+  /* Декремент */
+
+  var coins = 5;
+
+  coins--;
+
+  alert(coins); // 4</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 101px;" data-block-id="12ea8a586084d67e8edebb52f8102e15"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align: left;">Постфиксная форма</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 367px; height: 253px; left: 513px; top: 150px;" data-block-id="74aa17e66c69f7f5633af19d8b6fab5b"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var i = 3;
+  alert(i++); // 3
+
+  alert(i) // 4
+
+  var coins = 10;
+
+  alert(++coins); // 11</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 513px; top: 101px;" data-block-id="afcb7a7d08ea9b19156774cb6488cfb7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p style="text-align:left"><span style="color:rgb(51, 51, 51); text-align:start">Префиксная</span> форма</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 422px;" data-block-id="effabd8569dbbc19054db431170f8621"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"><span style="font-size:1.0em">Сокращенная запись</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 140px; left: 80px; top: 490px;" data-block-id="9df6dea3b08356c8af41dde54a164812"><div class="sl-block-content" style="z-index: 17;"><pre class="typescript"><code>  var x = 9;
+
+  x*=5; // equal x = x * 5;
+  alert(x); // 45</code></pre></div></div></section><section data-id="6ec8c6bf33cdfb7eec523eb9d2c9df4c"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 303px; height: auto;" data-block-id="a287872f95342d71b4c41d0b30fd90c8"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Преобразование к числу.</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 257px; left: 80px; top: 373px;" data-block-id="027d0c3bb456b43739429a0835ccddde"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>  alert('6' / 2); //  3 - произошло неявное преобразование
+
+  var a = '4';
+  var b = '10';
+
+  alert(a + b); // '410'
+
+  alert(a / b); // 0.4 - произошло неявное пребразование 
+
+  alert(Number(a) + Number(b)); // 14 - явное преобразование в Number</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="9293b4f693687c6240a5ff819720443c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Сложение строк</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 187px; left: 80px; top: 93px;" data-block-id="c56708d5171514cca9d2a6e4fbebb6bb"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  var name = "John";
+  var secondName = "Snow";
+
+  alert(name + secondName); // JohnSnow
+
+  var age = 20;
+  alert("Мне уже " + age + " лет"); // Мне уже 20 лет</code></pre></div></div></section><section data-id="ae1505b392dae57439f28142e8ee740c"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="e1ca4eaa76c5c1da296a3389dc8f0ad8"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Операторы сравнения</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 78px;" data-block-id="ca5dfa914b639b9e1daf3034ec9e33a9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:left"><span style="font-size:0.7em">Как и другие операторы(например typeof), сравнение возвращает значение. Это значение имеет логический тип. Существует всего два логических значения:</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 346px; left: 80px; top: 202px;" data-block-id="33751574c3bb4f6556c987106242dcd2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+<ul>
+	<li style="color:rgb(51, 51, 51); text-align:left"><span style="font-size:0.7em"><strong>false</strong> - нет, ложь</span></li>
+	<li style="color: rgb(51, 51, 51);"><span style="font-size:0.7em"><strong>true</strong> - да, истина </span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 480px; height: 117px; left: 80px; top: 303px;" data-block-id="c22f93ce4d2f389d8b208096c76f9e06"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  alert(2 &gt; 1); // true
+
+  alert(2 != 1); // true
+
+  alert(5 == 10); // false</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 491px; height: 125px; left: 80px; top: 500px;" data-block-id="32cf09d0610bc134fd378533557e854a"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>  var a = false;
+
+  var b = 5 &gt; 6; 
+  alert(b); // true
+
+  alert(a == b); // false
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 720px; left: 80px; top: 442px;" data-block-id="776cba6a768e21871fea2257ed6838f2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="color:rgb(51, 51, 51); font-size:1.25em; text-align:left"><span style="font-size:0.7em">Также можно записывать результат в переменную</span></p>
+</div></div></section><section data-id="6d46abb7e8e6f41b3a32eb262c79c79b"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="a9724286847055b4f825cc4b56d27bc5"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Сравнение строк</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 78px;" data-block-id="a2423ab5a82ccb67dc686a258227d483"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:left"><span style="font-size:0.7em">Сравнение строк происходит побуквенно</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 560px; height: 173px; left: 80px; top: 140px;" data-block-id="bdfa0a8b73217f1c85e251612a91fb7c"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  alert('б' &gt; 'а'); //  true
+
+  alert('a' == 'A'); // false
+
+  alert('aaa' &gt; 'b'); //false
+
+  alert('2' &gt; '14'); // true - сравниваются строки</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 560px; height: 125px; left: 80px; top: 392px;" data-block-id="9ebac0976e711c97755ace85784f0851"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>  alert('привет'  &gt; 'прив'); // true;</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 720px; left: 80px; top: 333px;" data-block-id="b91c9205035705593f30d2a6af382d50"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">Стоит запомнить что любая буква больше чем её отсутствие</span></p>
+</div></div></section><section data-id="897bbfcdcd678612beec0a538ebdd340"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="234db5b5898c3fb116bc4150072a5b48"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Сравнение разных типов</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 880px; left: 80px; top: 78px;" data-block-id="793940d21b6e381a9d976f644c78a09d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">При сравнении значений разных типов, используется числовое преобразование</span></p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 842px; height: 280px; left: 80px; top: 140px;" data-block-id="6f0d716d69d120ff367ed026e4851363"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>  
+  alert('10' &gt; 2); // true - 10 преобразовывается в число
+
+  alert(0 == false); // true -  false преобразовывается в число 0
+
+  alert( '' == false ); // true -  как и false пустая строка преобразовывается в число 0
+
+  alert(1 == true); // true
+
+  alert(true == 'string'); // false
+
+
+  alert('1' == 1); </code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 442px; height: auto;" data-block-id="443727b8edd72f481d314ee2a7028113"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 14;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Строгое сравнение</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 842px; height: 67px; left: 80px; top: 513px;" data-block-id="df832feba8437a42695956494ac7359b"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>
+  alert(0 === false); // false
+</code></pre></div></div></section><section data-id="63d0ad9a720541f3571386c756536f69"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="ced9724ee69f5ac2b648973fde9d65e0"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Условные операторы</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 880px; left: 80px; top: 78px;" data-block-id="a481755dd4db40572ca93d0c0076ca4c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em"><span style="color:rgb(51, 51, 51); text-align:start">Базовая структура</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 842px; height: 140px; left: 80px; top: 140px;" data-block-id="6748c41eb76365d44a9a2594bb422f83"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code> if(true) {
+    //...some code
+  }
+  else {
+    //... if false
+  }</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 842px; height: 197px; left: 80px; top: 293px;" data-block-id="06ba878d70515d67384d88ed71f76509"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  var hasAccess = true;
+
+  if(hasAccess == true) {
+    alert("У вас есть доступ");
+  }
+  else {
+    alert('Купите у нас премиум!');
+  }</code></pre></div></div></section><section data-id="4c382ef4f67a3331e73222018d43be25"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="ecc1834822f3ff7d0ed9867395078260"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start"><span style="font-size:0.9em">Преобразование к логическому типу</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 842px; left: 80px; top: 78px;" data-block-id="8f97116bc6ea2b974904056536d87bf5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;" dir="ui">
+<ul style="color:rgb(51, 51, 51)">
+	<li><span style="font-size:0.7em">Число 0, пустая строка "", null, undefined, NaN являются false,</span></li>
+	<li><span style="font-size:0.7em">Остальные значения – true.</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 166px; left: 80px; top: 166px;" data-block-id="007e9ebc76f0e2502c8b2d8f956500e8"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var result = "0";
+  if(result) {
+    alert("Успешный результат"); // Зайдет сюда(попадает под второй случай);
+  }
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 210px; left: 80px; top: 440px;" data-block-id="25cdc2e593b4af0d7367cd8822940f30"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  var result = "0";
+  if(Number(result)) {
+    alert("Успешный результат"); 
+  }
+  else {
+    alert("Произошла ошибка!");
+  }</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 342px;" data-block-id="39460729a03d3372cc0c28205f9272e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p style="color:rgb(51, 51, 51); text-align:start"><span style="font-size:0.7em">Для избежания подобного поведения - нужно использовать явное преобразование типов</span></p>
+</div></div></section><section data-id="d287c02ec70dbe3baa822971d87181df"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 12px; height: auto;" data-block-id="a121b45c38926d989088a7fe7ba8a0a0"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2 style="color:rgb(51, 51, 51); font-size:1.25em; text-align:start">Несколько вариантов условия</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 350px; left: 80px; top: 70px;" data-block-id="66f4bee65a9f71a8c30e1f4bd51861fc"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var accessLevel = "admin";
+  var hellowMessage;
+
+  if(accessLevel == 'admin') {
+
+    hellowMessage = 'Привет Админ!';
+  }
+  else if(accessLevel == 'moderator') {
+
+    hellowMessage = 'Привет Модератор!';
+  }
+  else {
+
+    hellowMessage = 'Всего лишь обычный пользователь';
+  }
+  alert(hellowMessage);
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 140px; left: 80px; top: 490px;" data-block-id="bae353f25e781766d575406f7c5cdebc"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  var accessLevel = 'admin';
+  var hasAccess;
+
+  access = (accessLevel  == 'admin') ? true : false;
+
+  alert(access); // true</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 430px;" data-block-id="1c169e46291f8b8cc631827effdd9c76"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<h3 style="color: rgb(51, 51, 51); text-align: start;">Короткая запись</h3>
+</div></div></section><section data-id="a9d900730edc83967d18d9101ac2ec82"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 0px;" data-block-id="3c9d8f8138bd45f1bc5af62ba70c7a07"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2 style="text-align:left">Конструкция switch/case</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 280px; left: 80px; top: 90px;" data-block-id="092882dd7a304a1e078a4c0034d9d646"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code> switch (variable) {
+     case 'value1': // if (variable === 'value1')
+
+         break;
+
+     case 'value2': // if (variable === 'value2')
+
+         break;
+
+     default:
+
+         break;
+ }</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 300px; left: 80px; top: 400px;" data-block-id="8e0b4c4819a5e002748ea12425d5c8e8"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>
+ var accessLevel = "admin";
+ var hellowMessage;
+ switch (accessLevel) {
+     case 'admin':
+         hellowMessage = 'Привет Админ!';
+         break;
+     default:
+         hellowMessage = 'Всего лишь обычный пользователь';
+         break;
+ }
+ alert(hellowMessage);</code></pre></div></div></section><section data-id="3adfd2b55ff936e97f62a443265f630d"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="9d8bb413c2a966c69f00ac1657d6b054"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2 style="text-align:left">Вложенные case</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 330px; left: 80px; top: 90px;" data-block-id="2b0e24f2db4961e5d2b02e6dc5f60da0"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>switch (browser) {
+    case 'IE':
+        alert('Поддержка не гарантирутеся');
+        break;
+
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+        alert('Спасибо за использование');
+        break;
+
+    default:
+        alert('Неизвестный браузер');
+}</code></pre></div></div></section><section data-id="a02dc218b7afbb0fdef9188244115c01"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="2cd5d7e84e00de5edf2933e66be0b9b8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2 style="text-align:left">Циклы</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 139px;" data-block-id="b1c323e38bb9a9f6ec9c82cb77050eae"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>  while(true) {
+    // сделать что-то
+  }
+
+  // Пример 
+  var i = 0;
+
+  while(i &lt; 10) {
+    i++;
+  }
+  alert(i); // 10</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 85px;" data-block-id="2603292a410b1fe95be7139006096b6a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align: left;">Цикл while</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 521px; top: 139px;" data-block-id="64c7ce415d44b07b08d480cfe2df21ef"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  do {
+    // Сначала делаем
+  } while(true) // Потом проверяем
+
+  var i = 0;
+  do {
+    i++;
+  } while(i &lt; 10) 
+  alert(i); // 10</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 402px; left: 519px; top: 85px;" data-block-id="fbb4fb82406453edc1f68e910956650e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui">
+<p style="text-align:left">Цикл do...while</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 256px; left: 80px; top: 444px;" data-block-id="dde6c6f1ae27b632c99514973b40cb79"><div class="sl-block-content" style="z-index: 16;"><pre class="typescript"><code>  for(инициализация;условие;шаг){
+    // делаем что-либо
+  }
+  // Пример
+  for(var i = 0; i &lt; 5; i++) {
+    alert(i);
+  }
+  var i = 0;
+  for(; i &lt; 5; ) {
+    alert(i);
+    i++;
+  }</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 390px;" data-block-id="5b3c9e20e685ff2cd0e2940f2060ff54"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" dir="ui">
+<p style="text-align:left">Цикл for</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 427px; left: 494px; top: 444px;" data-block-id="49038a7b3671a6903690cd5de9f4281e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; line-height: 0.91; font-size: 109%;" data-has-line-height="">
+<ul style="color:rgb(51, 51, 51)">
+	<li>
+	<p><span style="font-size:0.5em">Инициализация - действие которое вызывается вначале цикла(зачастую - обьявление счетчика)</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">Условие - условие продолжения цикла. Если ложно - цикл завершается</span></p>
+	</li>
+	<li>
+	<p><span style="font-size:0.5em">Шаг - действие после выполнения итерации цикла(зачастую увеличение/уменьшение счетчика)</span></p>
+	</li>
+</ul>
+</div></div></section><section data-id="0a03f153797139a7d7fbb1844a959fc8"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 20px;" data-block-id="c22040e0f9203dac95d661bf553a6212"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3 style="text-align: left;">Прерывание цикла. Следующая итерация</h3>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 139px;" data-block-id="10bc2a36d7024806e43bdccc9751c77c"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>  var count = 0;
+  while(true) {
+    count++;
+    if(count == 5) {
+      // Прерываем цикл когда count равен 5
+      break;
+    }
+  }
+  alert(count);</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 85px;" data-block-id="b7ad029bb978089e641efbde467c53e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align:left">Break</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 521px; top: 139px;" data-block-id="6d8763257f625bb44023abd14a95087d"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>  var result = 0;
+  for(var i = 0;i &lt; 10; i++) {
+    if(i % 2 == 0) {
+        // пропускаем четные числа
+        continue;
+    }
+
+    result+=i;
+  }
+  alert(result); // 25</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 402px; left: 519px; top: 85px;" data-block-id="451b0fa6613662a2692a5c39549b4037"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" dir="ui">
+<p style="text-align:left">Continue</p>
+</div></div></section><section data-id="78f426a2bd5bc58b2fee8c17485c3a02"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="48073401e070f6ad032cec059e78f067"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2 style="text-align:left">Массивы</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 139px;" data-block-id="970e1b537d2d4317ac1bcfeff0ded91e"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>  var countries = ['Ukraine','USA'];
+
+  var arr = [];
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 85px;" data-block-id="b41735008d34f22afc7557abc156bffe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left">Создание</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 521px; top: 139px;" data-block-id="5aff59551279b7e26a58b57b969eb4e9"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var arr = [];
+
+  arr[0] = 'Apple';
+
+  arr[1] = 'Orange';</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 402px; left: 519px; top: 85px;" data-block-id="e474a772bf18d805930473ecc74ef09f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui">
+<p style="text-align:left">Присваивание значений</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 445px;" data-block-id="a1ab470cb43d988bf8068ddad8ec523d"><div class="sl-block-content" style="z-index: 16;"><pre class="typescript"><code>
+  var countries = ['Ukraine','USA'];
+
+  var ukr = countries[0];
+
+  alert(ukr); // Ukraine</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 391px;" data-block-id="042a86e542b79e08f0ca989f58fa0d88"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" dir="ui">
+<p style="text-align:left">Получение элемента</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 519px; top: 445px;" data-block-id="609a8034546d9f07ffd34eedf862109c"><div class="sl-block-content" style="z-index: 18;"><pre class="typescript"><code>  var arr = ['Apple','Orange'];
+
+  delete arr[0];
+
+  alert(arr[0]); // undefined</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 402px; left: 521px; top: 391px;" data-block-id="4a2e87848d6b022cd5df45c1f5e11629"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;" dir="ui">
+<p style="text-align:left">Удаление значения</p>
+</div></div></section><section data-id="fdd17027bd6677ce7e4f20ee21691c04"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="b923d69f16599d1036509eaf8e519801"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2 style="text-align:left">Методы массива</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 139px;" data-block-id="9d6522b384f039b2afb718f3b3a21d0c"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>  var arr = [];
+
+  arr.push('Apple');
+
+  arr.push(3.14);
+
+  alert(arr[1]); // 3.14
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 85px;" data-block-id="7fc2cf039ea3e7041f6d819b7736295f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left">Push</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 521px; top: 139px;" data-block-id="aa23da1655a0ab8c31dea78da2b1076d"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var arr = ['Apple','Orange'];
+
+  arr.pop(); // удалил последний элемент
+
+  alert(arr[1]); // undefined</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 402px; left: 519px; top: 85px;" data-block-id="f745ff5f28f7fcbaad89455aca990276"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui">
+<p style="text-align:left">Pop</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 185px; left: 80px; top: 445px;" data-block-id="24250dc14a1de0982c3de3a0fffd4a87"><div class="sl-block-content" style="z-index: 16;"><pre class="typescript"><code>
+  var countries = ['Ukraine','USA'];
+
+  var num = countries.length;
+
+  alert(num); // 2</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 391px;" data-block-id="bf4ba21801050fe36eec039141cef549"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" dir="ui">
+<p style="text-align:left">Length</p>
+</div></div></section><section data-id="d7df8750b3869ff054d3156700327e19"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="e79a7b980e9be8181d1d973095fc7705"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2 style="text-align:left">Методы массива</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 80px; top: 139px;" data-block-id="46743a9d858b609dbb45a79b4f5ce3fd"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>
+  var names = "John,Martin,Alex";
+
+  var namesArray = names.split(',');
+
+  alert(namesArray[0]); // John</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 400px; left: 80px; top: 85px;" data-block-id="8266d1ed2a063aae6955285f07c60047"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left">Из строки в массив</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 231px; left: 521px; top: 139px;" data-block-id="cd6a1ff33987b866683149cc32da1c57"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  var names = ['John','Martin','Alex'];
+  names[0] = 'Anna';
+
+  var str = names.join(', ');
+  alert(str); 
+  // Anna, Martin, Alex</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 402px; left: 519px; top: 85px;" data-block-id="46c501cda801d13f3e14fd92c1e0e172"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui">
+<p style="text-align:left">Из массива в строку</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 255px; left: 80px; top: 445px;" data-block-id="9de8d69af1838b8535691ab42c8f732b"><div class="sl-block-content" style="z-index: 15;"><pre class="typescript"><code>
+  var arr = ['Скоро','наступит','весна'];
+
+  // Удаляем 1 элемент с 0 позиции
+  arr.splice(0,1); 
+
+  alert(arr); // ['наступит','весна']</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 441px; left: 80px; top: 391px;" data-block-id="084e1bd3729201e5b4d283fe8504366b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" dir="ui">
+<p style="text-align:left">Удаление по индексу (splice)</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 419px; height: 255px; left: 521px; top: 445px;" data-block-id="93a76c82e82789c0708cd2dbfab4b74a"><div class="sl-block-content" style="z-index: 18;"><pre class="typescript"><code>
+  var arr = ['Скоро','наступит','весна'];
+
+  // Удаляем 1 элемент с 0 позиции и 
+  // добавляем 3 элемента
+
+  arr.splice(2,1,'зима'); 
+
+  alert(arr); 
+  // ['Скоро','наступит','зима']</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 439px; left: 521px; top: 391px;" data-block-id="1019c179166866289181118e9fb0cc95"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19;" dir="ui">
+<p style="text-align:left">Замена элемента</p>
+</div></div></section><section data-id="58f04b2f636d7b82df93f5e11641fb8b"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;" data-block-id="7bf2bbfd86e93f243e1d7377433b5fb9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2 style="text-align:left">Перебор элементов массива</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 211px; left: 80px; top: 304px;" data-block-id="ccbc38cb89a451f8537ea562273cfc76"><div class="sl-block-content" style="z-index: 11;"><pre class="typescript"><code>  var countries = ['Ukraine','USA','Norway'];
+
+  var countriesLength = countries.length;
+
+  for(var i = 0; i &lt; countriesLength; i++) {
+    alert(countries[i]);
+  }</code></pre></div></div></section><section data-id="e692878da44369d13ac4f59451a79068"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 0px;" data-block-id="178fd25fcad25de505f865d016a578b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2 style="text-align:left">Объекты</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 211px; left: 80px; top: 123px;" data-block-id="627171b20d136cdd54a009b728ef04bf"><div class="sl-block-content" style="z-index: 12;"><pre class="typescript"><code>
+  var emptyObject =  new Object();
+  var obj = {
+    property:'value',
+    secondProperty: 12
+  };</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 400px; left: 80px; top: 74px;" data-block-id="f94d51d87017d96a46db5047859c5982"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+<p><span style="color:rgb(51, 51, 51); text-align:start">Создание </span><span style="color:rgb(51, 51, 51)">объекту</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 257px; left: 80px; top: 413px;" data-block-id="d0cecbb8b853805ed6efb976d3304dad"><div class="sl-block-content" style="z-index: 14;"><pre class="typescript"><code>
+  var person = {};
+
+  person.name = "John";
+  person.age = 19;
+
+  alert(person.age); // 19
+
+  alert(person); // [object Object] - произошло преобразование в String
+
+  alert(person.secondName); // undefined - нет свойства с ключем secondName</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 560px; left: 80px; top: 354px;" data-block-id="53b3f0ddfa86274f018a5380d2eff350"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; text-align: left;">
+<p style="color:rgb(51, 51, 51)">Добавление свойства к объекту</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 389px; height: 211px; left: 491px; top: 123px;" data-block-id="4d2b4c7a6e08a0dd4ea0381687da9616"><div class="sl-block-content" style="z-index: 16;"><pre class="typescript"><code>  
+  var person = {};
+  person['name'] = 'Ada'; 
+
+  alert(person.name); // Ada
+
+  /* Доступ к свойсту через переменную */
+  var key = 'name';
+
+  alert(person[key]); // Ada</code></pre></div></div></section><section data-id="b087ddf5129f86b31addcc69be768dec"><div class="sl-block" data-block-type="code" style="width: 800px; height: 257px; left: 80px; top: 93px;" data-block-id="d72880bdee170c1380ea3b1ccfec7a4c"><div class="sl-block-content" style="z-index: 10;"><pre class="typescript"><code>  var user = {
+    login:'admin',
+    favouriteCountries:['Ukraine','USA','Norway'],
+    isAdmin:true
+  }
+  alert(user.favouriteCountries[0]); // Ukraine</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 560px; left: 80px; top: 34px;" data-block-id="48afaad22da3a1180751607dc945f154"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+<p style="color:rgb(51, 51, 51)">Вложенные объекты</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 257px; left: 80px; top: 420px;" data-block-id="a452aa6a12c659cbf51e249831bad8ba"><div class="sl-block-content" style="z-index: 13;"><pre class="typescript"><code>  for (key in obj) {
+    // key - ключ обьекта
+  }
+
+  // Пример 
+  var person = {
+    name:'Ada',
+    secondName:'Lovelace',
+    age:18
+  };
+  for (key in person) {
+    alert(key); // name,secondName,age
+  }
+
+  for (key in person) {
+    alert(person[key]); // Ada,Lovelace,18
+  }</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 560px; left: 80px; top: 368px;" data-block-id="1c9e1fc97dce6db9cd476b850c5302aa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left;">
+<p style="color:rgb(51, 51, 51)">Перебор свойств объекта</p>
+</div></div></section><section data-id="1c42c898ee98c85d2be25af8e8640ceb"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 270px; height: auto;" data-block-id="58f671bdea0a5d427da3e01b7d4db094"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>The end</h1>
 </div></div></section>
 			</div>
 		</div>
@@ -60,7 +786,7 @@
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":583975,"username":"neomurderer","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/644ccdba86c3d8a70640a363354b2304?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":429270,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"nm@thebas.ru","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":814052,"slug":"deck","title":"deck","description":"","visibility":"all","published_at":"2016-09-30T10:29:20.168Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/cb48bb6021a968b6dc6f865a5b4c9221/thumb.jpg","view_count":0,"user":{"id":583975,"username":"neomurderer","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/644ccdba86c3d8a70640a363354b2304?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":429270,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1475231518157,"font_typekit":null,"font_google":null,"access_token":"zya5Mj1pf4yDAiuooxgN8tbVeo8r","notes":{}}};
+	var SLConfig = {"current_user":{"id":583975,"username":"neomurderer","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/644ccdba86c3d8a70640a363354b2304?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":429270,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"nm@thebas.ru","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":814052,"slug":"deck","title":"deck","description":"","visibility":"all","published_at":"2016-09-30T10:29:20.168Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/cb48bb6021a968b6dc6f865a5b4c9221/thumb.jpg","view_count":0,"user":{"id":583975,"username":"neomurderer","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/644ccdba86c3d8a70640a363354b2304?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":false,"team_id":null,"settings":{"id":429270,"present_controls":true,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"sand-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1475240841290,"font_typekit":null,"font_google":null,"access_token":"zya5Mj1pf4yDAiuooxgN8tbVeo8r","notes":{}}};
 </script>
 
 		<script>
