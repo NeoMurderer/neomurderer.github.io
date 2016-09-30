@@ -30,6 +30,7 @@
   
   alert(coins); // 4
 ```
+
 Префиксная форма
 ```javascript
   var i = 3;
@@ -48,6 +49,23 @@
   x*=5; // equal x = x * 5;
   alert(x); // 45
 ```
+### Логический оператор !(НЕ)
+```javascript
+  var result = 2 > 1;
+  
+  alert(!result); // false
+```
+* Если оператор применяется к неопределенному значению или выражению null, возникает ошибка времени выполнения.
+* Объекты преобразуются в строки.
+* Строки преобразуются в числа, если это возможно.Если это невозможно, возникает ошибка времени выполнения.
+* Логические значения интерпретируются как числа (0 для false, 1 для true).
+### Логический оператор &&(И) ||(или)
+```javascript
+  var result = expression1 && expression2 
+  
+  var result = expression1 || expression2 
+```
+
 ### Операции со строками 
 Работа оператора "+"
 ```javascript
@@ -77,3 +95,4 @@
 ```
 
 [Приоритет операторов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+[JavaScript Operators](https://msdn.microsoft.com/en-us/library/ce57k8d5(v=vs.94).aspx)
