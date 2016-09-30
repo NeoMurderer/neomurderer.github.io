@@ -9,6 +9,7 @@
   var name = "Mike";
   var $ = true;
   var PI = 3.14;
+  var status404  = 404;
   
   // Invalid 
   var 404error = false;
