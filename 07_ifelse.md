@@ -31,7 +31,7 @@
 Для избежания подобного поведения - нужно использовать явное преобразование типов
 ```javascript
   var result = "0";
-  if(parseInt(result)) {
+  if(Number(result)) {
     alert("Успешный результат"); 
   }
   else {

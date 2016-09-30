@@ -2,47 +2,53 @@
 
 ## Обьявление переменной
 ```javascript
-var name = 'John'
-
+// Обьявление пустой переменной
 var number;
 number = 10;
 
+// Обьявление с присваиванием
+var name = 'John';
+
+// Обьявление нескольких переменных
+var user = 'John', age = 25, message = 'Hello';
+
 ```
-### Типы переменных
+## Копирование переменной
 ```javascript
-// Number
-var number = 1; // type "number"
-
-// String
-var userName = "John"; // type "string"
-
-// Boolean
-var isLogged = true; // type "boolean"
-
-// Array
-var countries = ['Ukraine','USA','Norway']; // type "object"
-
-// Object
-
-var person = {
-	firstName: 'John',
-	secondName: 'Martin'
-}; // type "object"
-
-// Undefined
-var person;	//  type  "undefined"
-// or
-var person  = undefined;
-
-
-// Null
-var nullVariable = null;  // type "object"
-
+  var message = 'Hello world';
+  
+  var hello;
+  
+  hello = message;
+  
+  alert(hello); // Hello world
 ```
+## Комментарии
 
-### Оператор typeof
-
+### Однострочные комментарии
+Однострочные комментарии начинаются с двойного слэша //.
 ```javascript
-var hasValue = true;
-typeof hasValue; // 'boolean'
+// Создаем переменную для хранения имени
+var name;
+// Присваиваем ей значение 'John'
+name = 'John';
 ```
+Shortcuts - `Ctrl + /` (OS X - `Command + /` )
+ 
+### Многострочные комментарии
+Многострочные комментарии начинаются слешем-звездочкой «/*» и заканчиваются звездочкой-слэшем «*/
+```javascript
+/* 
+  Имя или краткое описание объекта 
+  Развернутое описание 
+  @return тип_данных
+*/
+
+```
+Shortcuts(Sublime text ) - `Shift + Ctrl + /` (OS X - `Option + Command + /`)
+# Итого
+
+* В JavaScript можно объявлять переменные для хранения данных. Это делается при помощи var..
+* Вместе с объявлением можно сразу присвоить значение: var x = 10.
+* Можно обьявить несколько переменных сразу
+* Значение можно скопировать из одной переменной в другую

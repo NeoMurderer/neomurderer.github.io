@@ -1,5 +1,20 @@
 # Конструкция switch/case
 ```javascript
+  switch(variable) {
+  case 'value1':  // if (variable === 'value1')
+
+    break;
+
+  case 'value2':  // if (variable === 'value2')
+    
+    break
+
+  default:
+
+    break;
+}
+```
+```javascript
   var accessLevel = "admin";
   var hellowMessage;
   switch(accessLevel) {
