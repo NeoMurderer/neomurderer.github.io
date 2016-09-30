@@ -12,6 +12,8 @@
   var $ = true; // valid
 
   var user-name = "Admin" // invalid
+  
+  var PI = 3.14;
 ```
 ### Регистр
 
